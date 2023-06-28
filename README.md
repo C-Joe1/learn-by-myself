@@ -21,6 +21,7 @@ Word、Excel、Powerpoint 等文档将使用 Microsoft LTSC 2021 进行编制；
 ## 已完成
 
 1. Oracle 简介与静默部署流程
+1. SQL语句 思维导图
 
 
 
