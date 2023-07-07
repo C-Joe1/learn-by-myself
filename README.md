@@ -4,7 +4,7 @@
 
 Markdown 文档使用 Typora 进行编制，图床使用 SM.MS ；
 
-Word、Excel、Powerpoint 等文档将使用 Microsoft LTSC 2021 进行编制；
+Word、Excel、Powerpoint 等文档将使用 Microsoft Office LTSC 2021 进行编制；
 
 在阅览此仓库的笔记时，推荐使用上述工具 / 软件进行查看，阅读效果更佳。
 
