@@ -25,9 +25,11 @@ Word、Excel、Powerpoint 等文档将使用 Microsoft Office LTSC 2021 进行�
 
 ## DOING
 
-1. [Interview 面试题](https://github.com/C-Joe1/learn-by-myself/blob/main/%E8%87%AA%E7%94%A8%E8%BF%90%E7%BB%B4%E9%9D%A2%E8%AF%95%E9%A2%98.md)编写，
+1. [Interview 面试题](https://github.com/C-Joe1/learn-by-myself/blob/main/%E8%87%AA%E7%94%A8%E8%BF%90%E7%BB%B4%E9%9D%A2%E8%AF%95%E9%A2%98.md)编写
 
-   目前已完成网络基础、云计算服务模式、SQL 语句、Nginx 、MySQL 的面试题归纳。
+   目前已完成：网络基础、云计算服务模式、SQL 语句、Nginx 、MySQL 的面试题归纳。
+
+   待编写：Redis、MongoDB、CI/CD、Docker、Kubernetes。
 
 ## TODO
 
