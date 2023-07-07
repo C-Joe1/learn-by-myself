@@ -18,12 +18,16 @@ Word、Excel、Powerpoint 等文档将使用 Microsoft LTSC 2021 进行编制；
 
 
 
-## 已完成
+## FINISH
 
-1. Oracle 简介与静默部署流程
-1. SQL语句 思维导图
+1. [Oracle 简介与静默部署流程](https://github.com/C-Joe1/learn-by-myself/blob/main/Oracle/1.%20Oracle%E7%AE%80%E4%BB%8B%E4%B8%8E%E9%9D%99%E9%BB%98%E9%83%A8%E7%BD%B2.md)
+1. [SQL语句 思维导图](https://github.com/C-Joe1/learn-by-myself/blob/main/SQL/SQL.png)
 
+## DOING
 
+1. [Interview 面试题](https://github.com/C-Joe1/learn-by-myself/blob/main/%E8%87%AA%E7%94%A8%E8%BF%90%E7%BB%B4%E9%9D%A2%E8%AF%95%E9%A2%98.md)编写，
+
+   目前已完成网络基础、云计算服务模式、SQL 语句、Nginx 、MySQL 的面试题归纳。
 
 ## TODO
 
