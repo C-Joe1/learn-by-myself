@@ -2,7 +2,7 @@
 
 此仓库用于存放个人编写的各类自学笔记。
 
-Markdown 文档使用 Typora 进行编制，图床使用 SM.MS ；
+Markdown 文档使用 Typora 进行编制，图床使用 SM.MS ，思维导图使用 XMind 进行绘制；
 
 Word、Excel、Powerpoint 等文档将使用 Microsoft Office LTSC 2021 进行编制；
 
