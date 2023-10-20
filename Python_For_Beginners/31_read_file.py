@@ -12,5 +12,5 @@ with open("./data.txt", "r", encoding="utf-8") as f:
 #         line = f.readline()
 
 # # 打开文件，用 read 读取文件
-# with open ("./data.txt", "r", encoding="utf-8") as f:
+# with open("./data.txt", "r", encoding="utf-8") as f:
 #     print(f.read())
