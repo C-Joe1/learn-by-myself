@@ -83,7 +83,7 @@ where user_id in (select id from user where status=1)
 
 ```
 select * from order
-where exists (select i from user where order.user_id = user.id and status=1)
+where exists (select id from user where order.user_id = user.id and status=1)
 ```
 
 前面提到的这种业务场景，使用in关键字去实现业务需求，更加合适。
@@ -137,7 +137,7 @@ values(123,'001',100),(124,'002',100),(125,'003',101);
 
 <font color='red'>小结：能一次操作插入数据的，不要多次操作。</font>
 
-<font color='red'>但需要注意的是，不建议一次批量操作太多的数据，如果数据太多数据库响应也会很慢。批量操作需要把握一个度，建议每批数据尽量控</font><font color='red'>制在500以内。如果数据多于500，则分多批次处理。</font>
+<font color='red'>但需要注意的是，不建议一次批量操作太多的数据，如果数据太多数据库响应也会很慢。批量操作需要把握一个度，建议每批数据尽量控制在500以内。如果数据多于500，则分多批次处理。</font>
 
 
 
