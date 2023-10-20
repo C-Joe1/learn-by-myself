@@ -30,6 +30,8 @@ Word、Excel、Powerpoint 等文档将使用 Microsoft Office LTSC 2021 进行�
    目前已完成：网络基础、云计算服务模式、SQL 语句、Nginx 、MySQL 的面试题归纳。
 
    待编写：Redis、MongoDB、CI/CD、Docker、Kubernetes。
+   
+2. Python自学记录
 
 ## TODO
 
