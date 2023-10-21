@@ -3,15 +3,18 @@ err = "Error: "
 
 
 class BMIClac:                                                          # 外部可调用主类
+    def __init__(self, user_weight, user_height):                           # 构造方法
+        self.user_weight = user_weight
+        self.user_height = user_height
 
     @staticmethod
     def get_weight():                                                       # 读取键盘输入体重的方法
-        user_weight = input(prog + "请输入您的体重（单位：kg）: ")                 # 读取输入后传给变量 weight
+        user_weight = input(prog + "请输入您的体重（单位：kg）: ")                  # 读取输入后传给变量 weight
         return float(user_weight)                                               # 取浮点数后返回变量 weight
 
     @staticmethod
     def get_height():                                                       # 读取键盘输入身高的方法
-        user_height = input(prog + "请输入您的身高（单位：m）: ")                  # 将读取输入传给变量 height
+        user_height = input(prog + "请输入您的身高（单位：m）: ")                   # 将读取输入传给变量 height
         return float(user_height)                                               # 取浮点数后返回变量 height
 
     @staticmethod
@@ -49,5 +52,5 @@ class BMIClac:                                                          # 外部
             print(prog + "程序运行结束。")
 
 
-bmi_clac = BMIClac()                                                    # 实例化 BMIClac 类
+bmi_clac = BMIClac(BMIClac.get_weight, BMIClac.get_height)              # 实例化 BMIClac 类，传入类中方法
 bmi_clac.main()                                                         # 调用 BMIClac 类的主运行方法
