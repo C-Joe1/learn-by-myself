@@ -34,4 +34,6 @@ class BMIClac:                                                      # 外部可�
         finally:                                                            # 程序结束输出
             print("Program: 程序运行结束。")
 
-    main()                                                              # 调用主体方法
+
+bmi_clac = BMIClac()                                                # 实例化 BMIClac 类
+bmi_clac.main()                                                     # 调用 BMIClac 类的主运行方法
