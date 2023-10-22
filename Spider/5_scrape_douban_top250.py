@@ -1,4 +1,5 @@
 import requests
+import sys
 from bs4 import BeautifulSoup
 
 head = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -14,5 +15,5 @@ for start_num in range(0, 250, 25):
                 print(title_string)
     else:
         print(f"\nResponse fail. {response.status_code}")
-        break
+        sys.exit(1)
 print("Scrape done.")
